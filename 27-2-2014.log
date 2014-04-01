@@ -1,0 +1,70 @@
+
+[27-2-2014][17:28:15] ____________________________________________________
+[27-2-2014][17:28:15] ====================================================
+[27-2-2014][17:28:15] ================ Starting Server ===================
+[27-2-2014][17:28:15] Parsing config.json {"publicPort":"8000","DLbasePort":"7000","instances":"3","maxConnections":"2","sockIdleTime":"80000"}
+[27-2-2014][17:28:15] Server listening at port 8000
+[27-2-2014][17:28:15] Error: listen EADDRINUSE
+    at errnoException (net.js:904:11)
+    at Server._listen2 (net.js:1042:14)
+    at listen (net.js:1064:10)
+    at Server.listen (net.js:1138:5)
+    at startListen (C:\Users\marios.georgiou\Dropbox\code\javascripts\loadBalancer\loadBalancer.js:268:23)
+    at startBalancer (C:\Users\marios.georgiou\Dropbox\code\javascripts\loadBalancer\loadBalancer.js:95:7)
+    at Object.<anonymous> (C:\Users\marios.georgiou\Dropbox\code\javascripts\loadBalancer\loadBalancer.js:40:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+[27-2-2014][17:30:44] ____________________________________________________
+[27-2-2014][17:30:44] ====================================================
+[27-2-2014][17:30:44] ================ Starting Server ===================
+[27-2-2014][17:30:44] Parsing config.json {"publicPort":"8000","DLbasePort":"7000","instances":"3","maxConnections":"2","sockIdleTime":"80000"}
+[27-2-2014][17:30:44] Server listening at port 8000
+[27-2-2014][17:30:46] [127.0.0.1:62471] Incoming connection. Reserving slot..
+[27-2-2014][17:30:46] [127.0.0.1:62471] Accepting. Attempting to connect to DL[0][0]
+[27-2-2014][17:30:47] [127.0.0.1:62471] Connecting to 127.0.0.1:7000. Reserving slot..
+[27-2-2014][17:30:47] [127.0.0.1:62471] Connected to DL. Starting relay!
+[27-2-2014][17:30:47] ======= Slots 0:FREE, 1:IN-USE, 2:SERV-DOWN =======
+[27-2-2014][17:30:47]  10 00 00
+[27-2-2014][17:30:47] ====================================================
+[27-2-2014][17:30:48] [127.0.0.1:62474] Incoming connection. Reserving slot..
+[27-2-2014][17:30:48] [127.0.0.1:62474] Accepting. Attempting to connect to DL[0][1]
+[27-2-2014][17:30:48] [127.0.0.1:62474] Connecting to 127.0.0.1:7000. Reserving slot..
+[27-2-2014][17:30:48]  11 00 00
+[27-2-2014][17:30:48] [127.0.0.1:62474] Connected to DL. Starting relay!
+[27-2-2014][17:30:48] ======= Slots 0:FREE, 1:IN-USE, 2:SERV-DOWN =======
+[27-2-2014][17:30:48] ====================================================
+[27-2-2014][17:30:49] [127.0.0.1:62476] Incoming connection. Reserving slot..
+[27-2-2014][17:30:49] [127.0.0.1:62476] Accepting. Attempting to connect to DL[1][0]
+[27-2-2014][17:30:49] [127.0.0.1:62476] Connecting to 127.0.0.1:7001. Reserving slot..
+[27-2-2014][17:30:50] [127.0.0.1:62476] Error on connection
+[27-2-2014][17:30:50] [127.0.0.1:62476] Failed to connect to DL. Slot [1][0] is bad.
+[27-2-2014][17:30:50] [127.0.0.1:62476] Connecting to 127.0.0.1:7001. Reserving slot..
+[27-2-2014][17:30:51] [127.0.0.1:62476] Error on connection
+[27-2-2014][17:30:51] [127.0.0.1:62476] Failed to connect to DL. Slot [1][1] is bad.
+[27-2-2014][17:30:51] [127.0.0.1:62476] Connecting to 127.0.0.1:7002. Reserving slot..
+[27-2-2014][17:30:51] [127.0.0.1:62482] Incoming connection. Reserving slot..
+[27-2-2014][17:30:51] [127.0.0.1:62482] Accepting. Attempting to connect to DL[2][1]
+[27-2-2014][17:30:51] [127.0.0.1:62482] Connecting to 127.0.0.1:7002. Reserving slot..
+[27-2-2014][17:30:52] [127.0.0.1:62476] Error on connection
+[27-2-2014][17:30:52] [127.0.0.1:62476] Failed to connect to DL. Slot [2][0] is bad.
+[27-2-2014][17:30:52] [127.0.0.1:62476] Rejecting.. No available slots. Some downloaders are down!
+[27-2-2014][17:30:52] ======= Slots 0:FREE, 1:IN-USE, 2:SERV-DOWN =======
+[27-2-2014][17:30:52] ====================================================
+[27-2-2014][17:30:52]  11 22 21
+[27-2-2014][17:30:52] [127.0.0.1:62482] Error on connection
+[27-2-2014][17:30:52] [127.0.0.1:62482] Failed to connect to DL. Slot [2][1] is bad.
+[27-2-2014][17:30:52] [127.0.0.1:62482] Rejecting.. No available slots. Some downloaders are down!
+[27-2-2014][17:30:52] ======= Slots 0:FREE, 1:IN-USE, 2:SERV-DOWN =======
+[27-2-2014][17:30:52]  11 22 22
+[27-2-2014][17:30:52] ====================================================
+[27-2-2014][17:30:54] [127.0.0.1:62484] Incoming connection. Reserving slot..
+[27-2-2014][17:30:54] [127.0.0.1:62484] Rejecting 127.0.0.1:62484. No available slots!
+[27-2-2014][17:30:56] [127.0.0.1:62487] Incoming connection. Reserving slot..
+[27-2-2014][17:30:56] [127.0.0.1:62487] Rejecting 127.0.0.1:62487. No available slots!
+[27-2-2014][17:30:58] [127.0.0.1:62504] Incoming connection. Reserving slot..
+[27-2-2014][17:30:58] [127.0.0.1:62504] Rejecting 127.0.0.1:62504. No available slots!
+[27-2-2014][17:31:00] [127.0.0.1:62508] Incoming connection. Reserving slot..
+[27-2-2014][17:31:00] [127.0.0.1:62508] Rejecting 127.0.0.1:62508. No available slots!
+[27-2-2014][17:31:04] [127.0.0.1:62514] Rejecting 127.0.0.1:62514. No available slots!
+[27-2-2014][17:31:04] [127.0.0.1:62514] Incoming connection. Reserving slot..

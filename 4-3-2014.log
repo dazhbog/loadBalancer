@@ -1,0 +1,43 @@
+
+[4-3-2014][09:20:59] ____________________________________________________
+[4-3-2014][09:20:59] ====================================================
+[4-3-2014][09:20:59] ================ Starting Server ===================
+[4-3-2014][09:20:59] Parsing config.json {"publicPort":"8000","DLIP":"127.0.0.1","DLbasePort":"7000","instances":"3","maxConnections":"2","sockIdleTime":"80000","listenWhenNoSlot":true}
+[4-3-2014][09:20:59] Server listening at port 8000
+[4-3-2014][09:21:48] ____________________________________________________
+[4-3-2014][09:21:48] ====================================================
+[4-3-2014][09:21:48] ================ Starting Server ===================
+[4-3-2014][09:21:48] Parsing config.json {"publicPort":"8000","DLIP":"127.0.0.1","DLbasePort":"7000","instances":"3","maxConnections":"2","sockIdleTime":"80000","listenWhenNoSlot":true}
+[4-3-2014][09:21:48] Server listening at port 8000
+[4-3-2014][09:22:10] [127.0.0.1:64506] Incoming Connection. Accepting. Connecting to DL [0][0]
+[4-3-2014][09:22:10] [127.0.0.1:64506] Connecting to 127.0.0.1:7000. Reserving slot..
+[4-3-2014][09:22:11] [127.0.0.1:64506] Failed to connect to DL. Slot [0][0] is bad.
+[4-3-2014][09:22:11] [127.0.0.1:64506] Connecting to 127.0.0.1:7000. Reserving slot..
+[4-3-2014][09:22:12] [127.0.0.1:64506] Failed to connect to DL. Slot [0][1] is bad.
+[4-3-2014][09:22:12] [127.0.0.1:64506] Connecting to 127.0.0.1:7001. Reserving slot..
+[4-3-2014][09:22:13] [127.0.0.1:64506] Connecting to 127.0.0.1:7001. Reserving slot..
+[4-3-2014][09:22:13] [127.0.0.1:64506] Failed to connect to DL. Slot [1][0] is bad.
+[4-3-2014][09:22:14] [127.0.0.1:64506] Failed to connect to DL. Slot [1][1] is bad.
+[4-3-2014][09:22:14] [127.0.0.1:64506] Connecting to 127.0.0.1:7002. Reserving slot..
+[4-3-2014][09:22:15] [127.0.0.1:64506] Failed to connect to DL. Slot [2][0] is bad.
+[4-3-2014][09:22:15] [127.0.0.1:64506] Connecting to 127.0.0.1:7002. Reserving slot..
+[4-3-2014][09:22:16] [127.0.0.1:64506] Failed to connect to DL. Slot [2][1] is bad.
+[4-3-2014][09:22:16] [127.0.0.1:64506] Rejecting.. No available slots. Some downloaders are down!
+[4-3-2014][09:22:16] ======= Slots 0:FREE, 1:IN-USE, 2:SERV-DOWN =======
+[4-3-2014][09:22:16]  22 22 22
+[4-3-2014][09:22:16] ====================================================
+[4-3-2014][09:22:30] ____________________________________________________
+[4-3-2014][09:22:30] ====================================================
+[4-3-2014][09:22:30] ================ Starting Server ===================
+[4-3-2014][09:22:30] Parsing config.json {"publicPort":"8000","DLIP":"10.0.0.164","DLbasePort":"7000","instances":"3","maxConnections":"2","sockIdleTime":"80000","listenWhenNoSlot":true}
+[4-3-2014][09:22:30] Server listening at port 8000
+[4-3-2014][09:22:32] [127.0.0.1:64532] Incoming Connection. Accepting. Connecting to DL [0][0]
+[4-3-2014][09:22:32] [127.0.0.1:64532] Connecting to 10.0.0.164:7000. Reserving slot..
+[4-3-2014][09:22:32] [127.0.0.1:64532] Connected to DL. Starting relay!
+[4-3-2014][09:22:32] ======= Slots 0:FREE, 1:IN-USE, 2:SERV-DOWN =======
+[4-3-2014][09:22:32]  10 00 00
+[4-3-2014][09:22:32] ====================================================
+[4-3-2014][09:23:01] [127.0.0.1:64532] Destroying connection..
+[4-3-2014][09:23:01] ======= Slots 0:FREE, 1:IN-USE, 2:SERV-DOWN =======
+[4-3-2014][09:23:01]  00 00 00
+[4-3-2014][09:23:01] ====================================================
