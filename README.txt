@@ -25,7 +25,7 @@
 
 
 
-/*   Just edit the config.json file to get started and run with "node loadBalancer.js" */
+/*   Just edit the config.json file to get started and run "node loadBalancer.js" */
 
 
 
