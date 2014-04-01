@@ -1,11 +1,20 @@
+/*
+ * What is this?
+ *
+ *                          |----> basePort
+ * Public port e.g. 8000 -->|----> basePort+1
+ *                          |----> basePort+2
+ *
+ */
+
 "publicPort" 	: "8000",     
-public port where the dualcoms will hit
+public port where the device/client connects to
 
 "DLIP"			: "127.0.0.1",
-IP of Marks downloaders
+IP of destination IP
 
 "DLbasePort" 	: "7000",	  
-Base port of downloaders. Base port increments per instance. 
+Base port of clusters/servers that are load balanced. Base port increments per instance. 
 e.g. 3 instances -> 7000, 7001, 7002
 
 
