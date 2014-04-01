@@ -1,9 +1,9 @@
 {
 	"publicPort" 	   : "8000",
-	"DLIP"			   : "10.0.0.164",
+	"DLIP"		   : "10.0.0.164",
 	"DLbasePort" 	   : "7000",
-	"instances"	 	   : "3",
+	"instances"	   : "3",
 	"maxConnections"   : "2",
 	"sockIdleTime"     : "80000",
-    "listenWhenNoSlot" :  true	
+        "listenWhenNoSlot" :  true	
 }
