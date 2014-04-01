@@ -19,7 +19,15 @@
  * Public port e.g. 8000 -->|----> basePort+1
  *                          |----> basePort+2
  *
+ * MIT Licence. Marios Georgiou 2014
  */
+
+
+
+
+/*   Just edit the config.json file to get started and run with "node loadBalancer.js" */
+
+
 
 "publicPort" 	: "8000",     
 public port where the device/client connects to
