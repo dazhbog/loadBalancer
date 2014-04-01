@@ -1,6 +1,20 @@
 /*
  * What is this?
  *
+ * A simple Node.js load balancer.
+ *
+ * Originally made to balance VB6 windowz legacy applications.
+ *
+ * Features
+ *
+ * Ability to kill the listener when slots are full. To avoid TCP SYN packets going out.
+ * Idle timeout
+ * MAX connections per server
+ * As many instances, routing moves to next instance when all slots are down
+ * Native Node.js
+ * 
+ *
+ *
  *                          |----> basePort
  * Public port e.g. 8000 -->|----> basePort+1
  *                          |----> basePort+2
