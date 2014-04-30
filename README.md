@@ -10,24 +10,29 @@ Features
 -----------
 
 Ability to kill the listener when slots are full. To avoid TCP SYN packets going out.
+
 Idle timeout
+
 MAX connections per server
+
 As many instances, routing moves to next instance when all slots are down
+
 Native Node.js
 
 
+Public port e.g. 8000  ---->  basePort
+Public port e.g. 8000  ---->  basePort+1
+Public port e.g. 8000  ---->  basePort+2
 
-                            |----> basePort
-   Public port e.g. 8000    |----> basePort+1
-                            |----> basePort+2
 
 MIT Licence. Marios Georgiou 2014
 
 
 
 
+Just edit the config.json file to get started and run
 
-Just edit the config.json file to get started and run "node loadBalancer.js" /
+    node loadBalancer.js
 
 
 
