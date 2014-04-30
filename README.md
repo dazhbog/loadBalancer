@@ -9,15 +9,15 @@ Originally made to balance VB6 windowz legacy applications.
 Features
 -----------
 
-Ability to kill the listener when slots are full. To avoid TCP SYN packets going out.
++ Ability to kill the listener when slots are full. To avoid TCP SYN packets going out.
 
-Idle timeout
++ Idle timeout
 
-MAX connections per server
++ MAX connections per server
 
-As many instances, routing moves to next instance when all slots are down
++ As many instances, routing moves to next instance when all slots are down
 
-Native Node.js
++ Native Node.js
 
 
     Public port e.g. 8000  ---->  basePort
@@ -31,6 +31,7 @@ Native Node.js
 
 
 Just edit the config.json file to get started and routing
+-------------
 
     node loadBalancer.js
 
@@ -70,3 +71,4 @@ false - will not respond to anything when slots are full
 
 
 MIT Licence. Marios Georgiou 2014
+
