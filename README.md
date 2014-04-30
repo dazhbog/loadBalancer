@@ -20,9 +20,9 @@ As many instances, routing moves to next instance when all slots are down
 Native Node.js
 
 
-Public port e.g. 8000  ---->  basePort
-Public port e.g. 8000  ---->  basePort+1
-Public port e.g. 8000  ---->  basePort+2
+    Public port e.g. 8000  ---->  basePort
+    Public port e.g. 8000  ---->  basePort+1
+    Public port e.g. 8000  ---->  basePort+2
 
 
 MIT Licence. Marios Georgiou 2014
@@ -30,33 +30,31 @@ MIT Licence. Marios Georgiou 2014
 
 
 
-Just edit the config.json file to get started and run
-
+Just edit the config.json file to get started and routing
     node loadBalancer.js
 
 
-
-    "publicPort" 	: "8000",
 public port where the device/client connects to
+    "publicPort" 	: "8000",
 
-    "DLIP"			: "127.0.0.1",
 IP of destination IP
+    "DLIP"			: "127.0.0.1",
 
-    "DLbasePort" 	: "7000",
 Base port of clusters/servers that are load balanced. Base port increments per instance.
 e.g. 3 instances -> 7000, 7001, 7002
+    "DLbasePort" 	: "7000",
 
-
-    "instances"	 	: "3",
 Downloader instances
+    "instances"	 	: "3",
 
+How many connections does the target take simultaneously
     "maxConnections": "2",
-How many connections does the dowloader take simultaneously
 
-    "sockIdleTime"  : "80000",
 When theres no data flowing when to kill the socket. IN Milliseconds
+    "sockIdleTime"  : "80000",
 
-    "listenWhenNoSlot":  true
 When slots are full:
 true  - will accept & kill connection | To know when we are getting more calls than we can handle
 false - will not respond to anything when slots are full
+    "listenWhenNoSlot":  true
+
