@@ -25,7 +25,7 @@ Native Node.js
     Public port e.g. 8000  ---->  basePort+2
 
 
-MIT Licence. Marios Georgiou 2014
+
 
 
 
@@ -66,3 +66,7 @@ false - will not respond to anything when slots are full
 
     "listenWhenNoSlot":  true
 
+
+
+
+MIT Licence. Marios Georgiou 2014
