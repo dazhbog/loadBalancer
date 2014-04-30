@@ -7,6 +7,7 @@ A simple Node.js load balancer.
 Originally made to balance VB6 windowz legacy applications.
 
 Features
+-----------
 
 Ability to kill the listener when slots are full. To avoid TCP SYN packets going out.
 Idle timeout
@@ -16,9 +17,9 @@ Native Node.js
 
 
 
-                       |----> basePort
-Public port e.g. 8000 -->|----> basePort+1
-                       |----> basePort+2
+                            |----> basePort
+   Public port e.g. 8000    |----> basePort+1
+                            |----> basePort+2
 
 MIT Licence. Marios Georgiou 2014
 
