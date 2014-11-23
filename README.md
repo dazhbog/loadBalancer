@@ -4,7 +4,7 @@ What is this?
 
 A simple Node.js load balancer.
 
-Originally made to balance VB6 windowz legacy applications.
+Originally made to balance/cluster legacy applications that cant handle many TCP connections.
 
 
     Public port e.g. 8000  ---->  basePort
