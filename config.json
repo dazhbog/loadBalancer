@@ -1,6 +1,6 @@
 {
 	"publicPort" 	   : "8000",
-	"DLIP"		   : "10.0.0.164",
+	"DLIP"		   : "192.168.0.111",
 	"DLbasePort" 	   : "7000",
 	"instances"	   : "3",
 	"maxConnections"   : "2",
